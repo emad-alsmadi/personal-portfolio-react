@@ -1,0 +1,62 @@
+.section-skills{
+    overflow: hidden;
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-skills h1 {
+    margin: 50px 0;
+}
+.section-skills .para-skill {
+    width: 730px;
+    text-align: center;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.75);
+}
+.section-skills .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.section-skills .skills .skill {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    border: 1px solid #313030;
+    border-radius: 8px;
+    background-color: #313030;
+}
+.section-skills .skills .skill img{
+    height: 3rem;
+    width: 3rem;
+}
+.section-skills .skills .skill  div {
+    flex: 1;
+    padding-left: 35px;
+}
+.section-skills .skills .skill  div p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.75);
+}
+@media (max-width: 720px){
+    .section-skills .para-skill{
+        width: 90%;
+    }   
+}
+@media (max-width: 480px){
+    .section-skills .skills .skill {
+        margin: 10px 15px;
+    }
+    .section-skills .skills .skill img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .section-skills .skills .skill h2{
+        font-size: 1.25rem;
+    }
+}
